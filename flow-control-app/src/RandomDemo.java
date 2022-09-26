@@ -14,7 +14,7 @@ public class RandomDemo {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("请输入：");
+            System.out.print("请输入：");
             int tempNum = sc.nextInt();
             if(tempNum < num) {
                 System.out.println("小了！");
