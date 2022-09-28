@@ -104,8 +104,6 @@ public class ShopCar {
         System.out.print("请输入删除商品名称：");
         String name = scanner.next();
 
-        Goods[] shopCarClone = shopCar.clone();
-
         boolean haveGetting = false;
         for (int i = 0; i < shopCar.length; i++) {
 
@@ -113,7 +111,7 @@ public class ShopCar {
                  if (shopCar[i-1] == null) {
                      return;
                  } else {
-                     shopCar[i-1] = shopCarClone[i];
+                     shopCar[i-1] = shopCar[i];
                  }
             } else if (shopCar[i].name.equals(name)) {
                 haveGetting = true;
