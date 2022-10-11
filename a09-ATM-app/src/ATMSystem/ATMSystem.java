@@ -1,5 +1,6 @@
 package ATMSystem;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class ATMSystem {
@@ -192,10 +193,24 @@ public class ATMSystem {
     }
 
     public static void transfer(Scanner scanner, Account account, AccountList accounts){
+        Random random = new Random();
         while (true) {
             System.out.println("请输入转账账号：");
             String code = scanner.next();
             Account targetAccount = accounts.userQuery(code);
+
+            String userName = targetAccount.getUserName();
+            String indexName = userName.substring(0,1);
+
+            String formatName = "*" + userName.substring(1);
+            System.out.println("转账账户姓名："+formatName);
+            System.out.println("请输入对方的姓：");
+            String name = scanner.next();
+
+            if(!name.equals(indexName)) {
+                continue;
+            }
+
             if (targetAccount != null) {
                 while (true) {
                     System.out.println("请输入转账金额：");
