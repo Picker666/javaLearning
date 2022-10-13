@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/a12-package-app/a12-package-app.iml" filepath="$PROJECT_DIR$/a12-package-app/a12-package-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/a13-java-grammar-app/a13-java-grammar-app.iml" filepath="$PROJECT_DIR$/a13-java-grammar-app/a13-java-grammar-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/a14-abstract-app/a14-abstract-app.iml" filepath="$PROJECT_DIR$/a14-abstract-app/a14-abstract-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a15-interface-app/a15-interface-app.iml" filepath="$PROJECT_DIR$/a15-interface-app/a15-interface-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/a03-flow-control-app/array/array.iml" filepath="$PROJECT_DIR$/a03-flow-control-app/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/javasepro.iml" filepath="$PROJECT_DIR$/javasepro.iml" />
       <module fileurl="file://$PROJECT_DIR$/a03-flow-control-app/array/src/traverse/traverse.iml" filepath="$PROJECT_DIR$/a03-flow-control-app/array/src/traverse/traverse.iml" />
