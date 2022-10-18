@@ -18,6 +18,8 @@ public class Case {
 }
 
 interface Swimming {
-    void swim();
+    default void swim(){
+        System.out.println("6666");
+    };
 }
 
