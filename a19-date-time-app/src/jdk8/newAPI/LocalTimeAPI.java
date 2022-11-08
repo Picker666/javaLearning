@@ -31,6 +31,15 @@ public class LocalTimeAPI {
         System.out.println(LocalDateTime.of(1991, Month.NOVEMBER,11,8,20,21));
         System.out.println(LocalDateTime.of(1991, Month.NOVEMBER,11,8,20,21,66));
         System.out.println(LocalDateTime.of(1991, Month.NOVEMBER,11,8,20));
+
+        System.out.println("======================");
+
+        System.out.println(nowTime.plusHours(1));
+        System.out.println(nowTime.plusMinutes(1));
+        System.out.println(nowTime.plusSeconds(1));
+        System.out.println(nowTime.plusNanos(1));
+        System.out.println(nowTime);// 不可变对象
+
     }
 
 }
